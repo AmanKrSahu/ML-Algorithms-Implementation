@@ -9,6 +9,7 @@
     Machine-Learning-Algorithms/
     ├── .gitignore
     ├── Linear Regression.ipynb
+    ├── Logistic Regression.ipynb
     ├── README.md
     ```
 
