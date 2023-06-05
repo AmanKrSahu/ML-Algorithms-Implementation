@@ -1,4 +1,4 @@
-# Machine Learning Algorithms
+# ML Algorithms Implementation
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AmanKrSahu/Machine-Learning-Algorithms?logo=github&style=for-the-badge) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge&logo=git) &nbsp; ![GitHub pull requests](https://img.shields.io/github/issues-pr/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge) &nbsp; ![GitHub issues](https://img.shields.io/github/issues/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge) &nbsp; ![GitHub stars](https://img.shields.io/github/stars/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge)  
 ## Quick Start
@@ -6,32 +6,35 @@
 1. What's included
 
     ```
-    Machine-Learning-Algorithms/
+    ML-Algorithms-Implementation/
+    ├── src/
+        ├── KNearest_Neighbors.py
+        ├── Linear_Regression.py
+        ├── Logistic_Regression.py
     ├── .gitignore
-    ├── Linear Regression.ipynb
-    ├── Logistic Regression.ipynb
     ├── README.md
     ```
 
 2. Build
 
-    To clone and run this project, you'll need [Git](https://git-scm.com/), [Python Compiler](https://www.python.org/) and [Jupyter Notebook](https://jupyter.org/) installed on your computer. From your command line:
+    To clone and run this project, you'll need [Git](https://git-scm.com/) and [Python Compiler](https://www.python.org/) installed on your computer. From your command line:
 
     ```bash
     # Clone this repository
-    $ git clone https://github.com/AmanKrSahu/Machine-Learning-Algorithms.git
+    $ git clone https://github.com/AmanKrSahu/ML-Algorithms-Implementation.git
 
     # Go into the repository
-    $ cd Machine-Learning-Algorithms
+    $ cd ML-Algorithms-Implementation
+    $ cd src
 
     # Execute
-    $ jupyter notebook
+    $ python <filename.py>
     ```
 
 ## Tools and Languages:
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="45" height="45"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" height="45" width="45"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" height="45" width="45"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" height="45" width="45"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" height="40" width="40"/>     
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" height="45" width="45"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" height="45" width="45"/> &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" height="40" width="40"/>     
 
 ## Need Help??
 
