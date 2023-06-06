@@ -1,6 +1,6 @@
 # ML Algorithms Implementation
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AmanKrSahu/Machine-Learning-Algorithms?logo=github&style=for-the-badge) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge&logo=git) &nbsp; ![GitHub pull requests](https://img.shields.io/github/issues-pr/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge) &nbsp; ![GitHub issues](https://img.shields.io/github/issues/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge) &nbsp; ![GitHub stars](https://img.shields.io/github/stars/AmanKrSahu/Machine-Learning-Algorithms?style=for-the-badge)  
+![GitHub repo size](https://img.shields.io/github/repo-size/AmanKrSahu/ML-Algorithms-Implementation?logo=github&style=for-the-badge) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/AmanKrSahu/ML-Algorithms-Implementation?style=for-the-badge&logo=git) &nbsp; ![GitHub pull requests](https://img.shields.io/github/issues-pr/AmanKrSahu/ML-Algorithms-Implementation?style=for-the-badge) &nbsp; ![GitHub issues](https://img.shields.io/github/issues/AmanKrSahu/ML-Algorithms-Implementation?style=for-the-badge) &nbsp; ![GitHub stars](https://img.shields.io/github/stars/AmanKrSahu/ML-Algorithms-Implementation?style=for-the-badge)  
 ## Quick Start
 
 1. What's included
@@ -8,6 +8,7 @@
     ```
     ML-Algorithms-Implementation/
     ├── src/
+        ├── Decision_Tree.py
         ├── KNearest_Neighbors.py
         ├── Linear_Regression.py
         ├── Logistic_Regression.py
