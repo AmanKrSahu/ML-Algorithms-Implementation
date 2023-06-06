@@ -13,11 +13,14 @@ class LogisticRegression:
         self.bias = 0
 
         for _ in range(self.n_iter):
+            # Making the predictions
             y_pred = 1/(1 + np.exp(-(np.dot(X, self.weights) + self.bias)))
 
+            # Calculating the gradients
             dw = (1/n_samples) * (2 * np.dot(X.T, (y_pred - y)))
             db = (1/n_samples) * (2 * np.sum(y_pred - y))
 
+            # Updating the weights & biases
             self.weights -= self.lr * dw
             self.bias -= self.lr * db
 

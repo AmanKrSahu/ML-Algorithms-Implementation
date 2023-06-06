@@ -12,13 +12,16 @@ class KNearestNeighbors:
     def predict(self, X):
         y_pred = []
         for x in X:
+            # Finding the Euclidian distance
             distances = [np.sqrt(np.sum((x-x_train)**2)) for x_train in self.X_train]
         
+            # Finding the k nearest values
             k_indices = np.argsort(distances)[:self.k]
             k_nearest_labels = [self.y_train[i] for i in k_indices]
 
+            # Finding the majority vote
             most_common = Counter(k_nearest_labels).most_common()
-            y_pred.append(most_common[0])
+            y_pred.append(most_common[0][0])
         return y_pred
      
 if __name__ == "__main__":
